@@ -6,8 +6,8 @@ from datetime import date, datetime
 
 DB_CONFIG = {
     "host": "localhost",
-    "user": "enter your username", 
-    "password": "enter your password", 
+    "user": "your_mysql_user", 
+    "password": "your_mysql_password", 
     "database": "gym_management"
 }
 
@@ -1067,3 +1067,4 @@ if __name__ == '__main__':
     app = GymApp(root)
 
     root.mainloop()
+
