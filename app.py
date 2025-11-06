@@ -6,11 +6,11 @@ from datetime import date, datetime
 
 DB_CONFIG = {
     "host": "localhost",
-    "user": "root", 
-    "password": "1904", 
+    "user": "enter your username", 
+    "password": "enter your password", 
     "database": "gym_management"
 }
-# ======================================================================
+
 
 class GymApp:
     def __init__(self, root):
@@ -1065,4 +1065,5 @@ class ManageExercisesWindow:
 if __name__ == '__main__':
     root = tk.Tk()
     app = GymApp(root)
+
     root.mainloop()
